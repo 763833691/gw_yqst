@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="前台接待 · 品牌墙与访客动线">
+  <defs>
+    <linearGradient id="bgworkspace07" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0904" />
+      <stop offset="0.55" stop-color="#080602" />
+      <stop offset="1" stop-color="#050401" />
+    </linearGradient>
+    <radialGradient id="glowworkspace07" cx="0.72" cy="0.26" r="0.7">
+      <stop offset="0" stop-color="rgba(214,170,82,.2)" />
+      <stop offset="0.45" stop-color="rgba(139,96,41,.07)" />
+      <stop offset="1" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+    <linearGradient id="scanworkspace07" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(243,209,132,.09)" />
+      <stop offset="1" stop-color="rgba(243,209,132,0)" />
+    </linearGradient>
+    <pattern id="gridworkspace07" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(224,194,126,.075)" stroke-width="1" />
+    </pattern>
+    <clipPath id="clipworkspace07">
+      <rect x="110" y="150" width="1360" height="700" />
+    </clipPath>
+    <clipPath id="frameworkspace07">
+      <rect x="0" y="0" width="1600" height="1000" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameworkspace07)">
+    <rect width="1600" height="1000" fill="url(#bgworkspace07)" />
+    <rect width="1600" height="1000" fill="url(#glowworkspace07)" />
+    <rect x="110" y="150" width="1360" height="700" fill="url(#gridworkspace07)" />
+    <rect x="110" y="150" width="1360" height="700" fill="none" stroke="rgba(224,194,126,.16)" />
+    <rect x="110" y="150" width="1360" height="90" fill="url(#scanworkspace07)" />
+
+    <g clip-path="url(#clipworkspace07)" transform="translate(110,150)">
+      <rect x="420" y="66" width="520" height="180" stroke="rgba(214,170,82,.62)" fill="rgba(214,170,82,.05)" /><circle cx="680" cy="140" r="46" stroke="rgba(243,209,132,.6)" fill="rgba(214,170,82,.08)" /><path d="M 664 140 L 680 116 L 696 140 L 680 164 Z" fill="rgba(243,209,132,.5)" /><line x1="560" y1="212" x2="800" y2="212" stroke="rgba(214,170,82,.3)" /><text x="680" y="232" fill="rgba(184,169,140,.8)" font-size="15" text-anchor="middle" font-family="monospace" letter-spacing="3">IGNISPATH / UVW</text><path d="M 250 430 Q 680 350 1110 430 L 1110 500 Q 680 420 250 500 Z" stroke="rgba(214,170,82,.62)" fill="rgba(214,170,82,.07)" /><path d="M 250 430 Q 680 350 1110 430" stroke="rgba(243,209,132,.45)" fill="none" /><text x="680" y="486" fill="rgba(120,107,85,.95)" font-size="14" text-anchor="middle" font-family="monospace" letter-spacing="4">CONSULT</text><rect x="300" y="592" width="150" height="40" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.07)" rx="6" /><rect x="478" y="592" width="150" height="40" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.07)" rx="6" /><rect x="656" y="592" width="150" height="40" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.07)" rx="6" /><path d="M 124.8 380 L 187.2 380 L 178.8 425.6 L 133.2 425.6 Z" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.07)" /><circle cx="156" cy="353.6" r="36" stroke="rgba(214,170,82,.3)" /><circle cx="132" cy="339.2" r="24" stroke="rgba(214,170,82,.62)" /><circle cx="182.4" cy="344" r="20.4" stroke="rgba(214,170,82,.62)" /><circle cx="158.4" cy="317.6" r="18" fill="rgba(214,170,82,.09)" stroke="rgba(243,209,132,.42)" /><line x1="120" y1="560" x2="1240" y2="560" stroke="rgba(224,194,126,.08)" stroke-dasharray="6 14" />
+    </g>
+
+    <path d="M 46 96 L 46 62 L 80 62" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+    <path d="M 1554 96 L 1554 62 L 1520 62" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+    <path d="M 46 904 L 46 938 L 80 938" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+    <path d="M 1554 904 L 1554 938 L 1520 938" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+
+    <text x="110" y="72" fill="rgba(214,170,82,.85)" font-size="17" font-family="monospace" letter-spacing="2.5">WS-07 / RECEPTION</text>
+    <text x="1490" y="72" fill="rgba(120,107,85,.9)" font-size="15" text-anchor="end" font-family="monospace" letter-spacing="2">IGNISPATH · UVW LAB</text>
+    <line x1="110" y1="90" x2="1490" y2="90" stroke="rgba(224,194,126,.16)" />
+
+    <text x="110" y="926" fill="rgba(184,169,140,.78)" font-size="17" font-family="monospace">前台接待 · 品牌墙与访客动线</text>
+    <text x="1490" y="122" fill="rgba(120,107,85,.8)" font-size="14" text-anchor="end" font-family="monospace" letter-spacing="2">SCALE 1:50 · REV 2026</text>
+
+    <line x1="110" y1="900" x2="1490" y2="900" stroke="rgba(224,194,126,.14)" />
+    <line x1="110" y1="900" x2="230" y2="900" stroke="rgba(243,209,132,.6)" stroke-width="3" />
+    <line x1="110" y1="890" x2="110" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="282" y1="890" x2="282" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="454" y1="890" x2="454" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="626" y1="890" x2="626" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="798" y1="890" x2="798" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="970" y1="890" x2="970" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="1142" y1="890" x2="1142" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="1314" y1="890" x2="1314" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="1486" y1="890" x2="1486" y2="900" stroke="rgba(120,107,85,.7)" />
+    <text x="1490" y="926" fill="rgba(120,107,85,.8)" font-size="14" text-anchor="end" font-family="monospace" letter-spacing="2">0 — 8 000 mm</text>
+    <circle cx="1468" cy="882" r="6" fill="rgba(243,209,132,.65)" />
+    <circle cx="1442" cy="882" r="4" fill="rgba(214,170,82,.45)" />
+  </g>
+</svg>

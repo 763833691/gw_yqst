@@ -1,0 +1,16 @@
+[project]
+requires = [ "nodejs-24" ]
+template = "vite"
+version = "0.0.28"
+appliedPatches = [ ]
+
+[dev]
+build = [ "sh", "-c", "export HOME=/root && cd ${COZE_WORKSPACE_PATH} && pnpm install --prefer-frozen-lockfile --prefer-offline" ]
+run = [ "sh", "-c", "export HOME=/root && cd ${COZE_WORKSPACE_PATH} && DEPLOY_RUN_PORT=${DEPLOY_RUN_PORT} node node_modules/vite/bin/vite.js --host 0.0.0.0 --port ${DEPLOY_RUN_PORT}" ]
+validate = [ "sh", "-c", "export HOME=/root && cd ${COZE_WORKSPACE_PATH} && node node_modules/.bin/eslint . --max-warnings=0 || true" ]
+deps = [ "git" ]
+
+[deploy]
+build = [ "sh", "-c", "export HOME=/root && cd ${COZE_WORKSPACE_PATH} && pnpm install --prefer-frozen-lockfile --prefer-offline && node node_modules/vite/bin/vite.js build" ]
+run = [ "sh", "-c", "export HOME=/root && cd ${COZE_WORKSPACE_PATH} && DEPLOY_RUN_PORT=${DEPLOY_RUN_PORT} node server.cjs" ]
+deps = [ "git" ]

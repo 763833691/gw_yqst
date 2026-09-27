@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="协作讨论区 · 圆桌与投屏墙">
+  <defs>
+    <linearGradient id="bgworkspace02" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0904" />
+      <stop offset="0.55" stop-color="#080602" />
+      <stop offset="1" stop-color="#050401" />
+    </linearGradient>
+    <radialGradient id="glowworkspace02" cx="0.72" cy="0.26" r="0.7">
+      <stop offset="0" stop-color="rgba(214,170,82,.2)" />
+      <stop offset="0.45" stop-color="rgba(139,96,41,.07)" />
+      <stop offset="1" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+    <linearGradient id="scanworkspace02" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(243,209,132,.09)" />
+      <stop offset="1" stop-color="rgba(243,209,132,0)" />
+    </linearGradient>
+    <pattern id="gridworkspace02" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(224,194,126,.075)" stroke-width="1" />
+    </pattern>
+    <clipPath id="clipworkspace02">
+      <rect x="110" y="150" width="1360" height="700" />
+    </clipPath>
+    <clipPath id="frameworkspace02">
+      <rect x="0" y="0" width="1600" height="1000" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameworkspace02)">
+    <rect width="1600" height="1000" fill="url(#bgworkspace02)" />
+    <rect width="1600" height="1000" fill="url(#glowworkspace02)" />
+    <rect x="110" y="150" width="1360" height="700" fill="url(#gridworkspace02)" />
+    <rect x="110" y="150" width="1360" height="700" fill="none" stroke="rgba(224,194,126,.16)" />
+    <rect x="110" y="150" width="1360" height="90" fill="url(#scanworkspace02)" />
+
+    <g clip-path="url(#clipworkspace02)" transform="translate(110,150)">
+      <rect x="430" y="58" width="500" height="26" stroke="rgba(243,209,132,.82)" fill="rgba(243,209,132,.12)" /><line x1="438" y1="72" x2="922" y2="72" stroke="rgba(214,170,82,.3)" /><line x1="438" y1="60" x2="740" y2="60" stroke="rgba(214,170,82,.3)" /><line x1="680" y1="84" x2="680" y2="180" stroke="rgba(214,170,82,.35)" /><ellipse cx="680" cy="392" rx="286" ry="142" stroke="rgba(214,170,82,.62)" fill="rgba(214,170,82,.06)" /><ellipse cx="680" cy="392" rx="186" ry="88" stroke="rgba(214,170,82,.3)" fill="none" /><circle cx="680" cy="392" r="26" fill="rgba(214,170,82,.14)" stroke="rgba(243,209,132,.5)" /><circle cx="1036" cy="392" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 1010 388 A 26 26 0 0 1 1062 388" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="1036" cy="392" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="931.7300141024109" cy="526.350288425444" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 905.7300141024109 522.350288425444 A 26 26 0 0 1 957.7300141024109 522.350288425444" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="931.7300141024109" cy="526.350288425444" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="680" cy="582" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 654 578 A 26 26 0 0 1 706 578" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="680" cy="582" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="428.2699858975891" cy="526.350288425444" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 402.2699858975891 522.350288425444 A 26 26 0 0 1 454.2699858975891 522.350288425444" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="428.2699858975891" cy="526.350288425444" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="324" cy="392" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 298 388 A 26 26 0 0 1 350 388" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="324" cy="392" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="428.26998589758904" cy="257.649711574556" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 402.26998589758904 253.64971157455602 A 26 26 0 0 1 454.26998589758904 253.64971157455602" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="428.26998589758904" cy="257.649711574556" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="679.9999999999999" cy="202" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 653.9999999999999 198 A 26 26 0 0 1 705.9999999999999 198" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="679.9999999999999" cy="202" r="3.5" fill="rgba(243,209,132,.55)" /><circle cx="931.7300141024109" cy="257.6497115745559" r="26" stroke="rgba(214,170,82,.3)" fill="rgba(214,170,82,.05)" /><path d="M 905.7300141024109 253.6497115745559 A 26 26 0 0 1 957.7300141024109 253.6497115745559" stroke="rgba(214,170,82,.62)" fill="none" /><circle cx="931.7300141024109" cy="257.6497115745559" r="3.5" fill="rgba(243,209,132,.55)" /><line x1="394" y1="640" x2="966" y2="640" stroke="rgba(214,170,82,.3)" /><line x1="389" y1="640" x2="399" y2="640" stroke="rgba(214,170,82,.62)" /><line x1="961" y1="640" x2="971" y2="640" stroke="rgba(214,170,82,.62)" /><line x1="675" y1="640" x2="685" y2="640" stroke="rgba(214,170,82,.62)" /><text x="680" y="630" fill="rgba(184,169,140,.72)" font-size="15" text-anchor="middle" font-family="monospace" letter-spacing="1.5">5.6m</text><text x="120" y="640" fill="rgba(120,107,85,.9)" font-size="14" font-family="monospace" letter-spacing="2">ACOUSTIC PANEL</text>
+    </g>
+
+    <path d="M 46 96 L 46 62 L 80 62" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+    <path d="M 1554 96 L 1554 62 L 1520 62" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+    <path d="M 46 904 L 46 938 L 80 938" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+    <path d="M 1554 904 L 1554 938 L 1520 938" fill="none" stroke="rgba(214,170,82,.5)" stroke-width="1.5" />
+
+    <text x="110" y="72" fill="rgba(214,170,82,.85)" font-size="17" font-family="monospace" letter-spacing="2.5">WS-02 / SYNC ROOM</text>
+    <text x="1490" y="72" fill="rgba(120,107,85,.9)" font-size="15" text-anchor="end" font-family="monospace" letter-spacing="2">IGNISPATH · UVW LAB</text>
+    <line x1="110" y1="90" x2="1490" y2="90" stroke="rgba(224,194,126,.16)" />
+
+    <text x="110" y="926" fill="rgba(184,169,140,.78)" font-size="17" font-family="monospace">协作讨论区 · 圆桌与投屏墙</text>
+    <text x="1490" y="122" fill="rgba(120,107,85,.8)" font-size="14" text-anchor="end" font-family="monospace" letter-spacing="2">SCALE 1:50 · REV 2026</text>
+
+    <line x1="110" y1="900" x2="1490" y2="900" stroke="rgba(224,194,126,.14)" />
+    <line x1="110" y1="900" x2="230" y2="900" stroke="rgba(243,209,132,.6)" stroke-width="3" />
+    <line x1="110" y1="890" x2="110" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="282" y1="890" x2="282" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="454" y1="890" x2="454" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="626" y1="890" x2="626" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="798" y1="890" x2="798" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="970" y1="890" x2="970" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="1142" y1="890" x2="1142" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="1314" y1="890" x2="1314" y2="900" stroke="rgba(120,107,85,.7)" /><line x1="1486" y1="890" x2="1486" y2="900" stroke="rgba(120,107,85,.7)" />
+    <text x="1490" y="926" fill="rgba(120,107,85,.8)" font-size="14" text-anchor="end" font-family="monospace" letter-spacing="2">0 — 8 000 mm</text>
+    <circle cx="1468" cy="882" r="6" fill="rgba(243,209,132,.65)" />
+    <circle cx="1442" cy="882" r="4" fill="rgba(214,170,82,.45)" />
+  </g>
+</svg>

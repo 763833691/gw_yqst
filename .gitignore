@@ -1,0 +1,25 @@
+dist/
+node_modules/
+.env
+.env.local
+.env.production
+.DS_Store
+*.log
+node_modules
+
+# Preview files
+.preview
+.cozeproj/reduction
+.codegraph
+
+# 归档素材与部署临时文件（体积大，不进版本库）
+archive/
+sematicOS/
+张博琛人物志/
+.npmtmp/
+.deploy/
+*.tar.gz
+*.log
+package-lock.json.bak
+泓儒OPC_产品介绍与操作手册.pdf
+张棪森_人物志_1.html
